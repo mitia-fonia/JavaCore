@@ -1,8 +1,6 @@
 package lessonsfojavacore.lesson1;
 public class Main {
-
-
-
+    //Соревнование по стрельбе
     public static void main(String[] args) {
         Competitor [] competitor = new Competitor[4];
         System.out.println();
