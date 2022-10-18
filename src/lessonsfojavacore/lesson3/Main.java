@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 public class Main {
-
     public static void main(String[] args) {
         changeElements(2,7);
         Orange orange = new Orange();
