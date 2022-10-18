@@ -6,7 +6,6 @@ import java.util.ArrayList;
 public class Box <T extends Fruit> {
     private String name;
     private ArrayList <T> fruitList;
-
     public Box(String name, ArrayList<T> fruitList){
         this.fruitList= fruitList;
         this.name= name;
@@ -22,7 +21,6 @@ public class Box <T extends Fruit> {
         return result;
     }
     public String getName(){return name;}
-
     public boolean compare(Box <? extends Fruit> box){
         if(this.getWeightOfBox().doubleValue()==box.getWeightOfBox().doubleValue()) return true;
         return false;
@@ -37,15 +35,5 @@ public class Box <T extends Fruit> {
         System.out.println("В "+this.getName()+" стало: " + this.getWeightOfBox());
         System.out.println("В "+box.getName()+" стало: " + box.getWeightOfBox());
     }
-
-
-
-
-
-
-
      public ArrayList <T> getFruitList(){return fruitList;}
-
-
-
 }
